@@ -15,6 +15,9 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * 数据写入表格
+ */
 public class WriteExcel {
     public void importToExcel(List<Employee> list, HttpServletResponse response){
         String fileName = DateFormatUtils.format(new Date(), "yyyyMMddhhmmss");
